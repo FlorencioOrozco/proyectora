@@ -1,0 +1,36 @@
+.card-box:hover .card {
+    transform: rotateY(180deg);
+}
+
+.card {
+    transform-style: preserve-3d;
+    transition: all 0.5s linear;
+}
+
+.cara {
+    position: relative;
+    backface-visibility: hidden;
+}
+
+.cara.detras {
+    transform: rotateY(180deg);
+    position: absolute;
+}
+
+.instrucciones{
+    position: absolute;
+    top:50px;
+    left: 250px;
+}
+
+.cardBiografia{
+    position: absolute;
+    left: 180px;
+    font-size: 22px;
+}
+
+.cardBibliografia{
+    position: relative;
+    left: 130px;
+    font-size: 22px;
+}
